@@ -1,14 +1,14 @@
+// $(function() {
+//     $('img').one('load',function() {
+//          $('.centered').fadeOut();
+//     });
+// });
+
 $(document).ready(function () {
 
-    // $("img").one("load", function() {
-    //     console.log('asasdasd');
-    // }).each(function() {
-    //
-    // });
-
-  setTimeout(function () {
-     $('.centered').fadeOut();
-  }, 3000);
+    $("img").one("load", function() {
+        $('.centered').fadeOut();
+    });
 
   var welcomeSection = $('.welcome-section');
 
