@@ -3,28 +3,30 @@
 @section('content')
   <!--Content-->
   <main>
+    <div class="centered">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Workshop-->
     <div class="workshop d-flex justify-content-around flex-wrap">
       <h2 class="workshop__title">Workshop Dance</h2>
       <div class="w-100"></div>
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
-      <img class="workshop__item responsive-img materialboxed" src="http://fakeimg.pl/300/" data-aos="fade-up">
+      @foreach($paginatedItems as $image)
+        <img alt="" class="workshop__item responsive-img materialboxed" src="{{$image}}" width="400px">
+      @endforeach
+    </div>
+    
+    <div class="center">
+      {{$paginatedItems->links()}}
     </div>
     <!--End Workshop-->
   </main>

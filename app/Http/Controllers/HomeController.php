@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Mail\Phone;
 use App\Team;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -21,7 +23,21 @@ class HomeController extends Controller
 
     public function gallery()
     {
-        return view('home.gallery');
+        $images = glob('images/gallery/*.{jpg}', GLOB_BRACE);
+
+        $currentPage = LengthAwarePaginator::resolveCurrentPage();
+        $itemCollection = collect($images);
+
+        $perPage = 6;
+
+        $currentPageItems = $itemCollection->slice(($currentPage * $perPage) - $perPage, $perPage)->all();
+
+        $paginatedItems= new LengthAwarePaginator($currentPageItems , count($itemCollection), $perPage);
+
+        $paginatedItems->setPath(\request()->url());
+
+
+        return view('home.gallery', compact('paginatedItems'));
     }
 
     public function schedule()

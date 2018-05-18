@@ -1,5 +1,15 @@
 $(document).ready(function () {
 
+    // $("img").one("load", function() {
+    //     console.log('asasdasd');
+    // }).each(function() {
+    //
+    // });
+
+  setTimeout(function () {
+     $('.centered').fadeOut();
+  }, 3000);
+
   var welcomeSection = $('.welcome-section');
 
   setTimeout(function() {
