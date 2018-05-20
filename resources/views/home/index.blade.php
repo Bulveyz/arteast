@@ -25,17 +25,17 @@
         <!--Services Text-->
         <div class="col-md-6 service__item">
           <h2>О Нас</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias commodi consectetur corporis culpa cumque delectus, distinctio dolorum eaque ex exercitationem harum inventore, ipsum iure mollitia nisi praesentium quas temporibus!</p>
+          <p></p>
           <a class="service__links" href="/team">Подробнее</a>
         </div>
         <!--End Services Text-->
 
         <!--Services Text-->
-        <div class="col-md-6 service__item">
+        {{-- <div class="col-md-6 service__item">
           <h2>Наши Проекты</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias commodi consectetur corporis culpa cumque delectus, distinctio dolorum eaque ex exercitationem harum inventore, ipsum iure mollitia nisi praesentium quas temporibus!</p>
           <a class="service__links" href="/workshop">Подробнее</a>
-        </div>
+        </div> --}}
         <!--End Services Text-->
 
         <!--Services Image-->
@@ -88,7 +88,7 @@
         <!--End Video Items-->
 
         <!--Video Link-->
-        <a class="video__link" href="#">Больше Видео <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        <a class="video__link" href="/gallery">Больше Видео <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         <!--End Video Link-->
 
       </div>
