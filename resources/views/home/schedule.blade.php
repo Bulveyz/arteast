@@ -10,9 +10,54 @@
       <img class="responsive-img hide-on-med-and-down" src="images/skew-bottom.svg" width="100%" alt="">
     </div>
     <div class="reg container">
+  
+      <div class="header-section">
+        <p>
+          Каждый участник сможет исполнить новый танец, поставленный лучшими хореографами страны, оценить свой уровень подготовки, получить отличную мотивацию и зарядиться замечательным настроением
+        </p>
+        <h5>Интерактивные программы</h5>
+        <p>
+          Больше всего нам нравится ездить с интерактивной программой, рассчитанной на 25-60 минут:
+        </p>
+        <p>
+          <b>Показательное выступление</b>
+          <br>
+          Мастер-класс, при котором 1 танцор-преподаватель обучает до 15 человек. Мы можем предложить максимум 13 танцоров и одновременно обучать до 195 человек.
+        </p>
+        <p>
+          <b>Завершающий джем, в котором участвуют «ученики» и преподаватели.</b>
+          <br>
+          Эта программа — хороший подарок на день рождения и ребёнку, грезящему брейк-дансом, и взрослому, который в 80х-90х годах мечтал, но не успел как следует позаниматься.
+        </p>
+        <p>
+          <b>Брейк-данс фестиваль имени заказчика</b>
+          <br>
+          Фестивальная программа — набор танцевальных шоу или чемпионат между брейк-данс командами по олимпийской системе. Это то, что мы называем баттл. Обычно это соревнования коллективов из трех-пяти человек. Таких команд от 8 до 16. Продолжительность от 1,5 до 10 часов.
+        </p>
+        <h5>Преимущества командных батлов, перед выступлениями:</h5>
+        <p>
+          Разнообразные танцевальные коллективы
+          <br>
+          Свободная и раскованная атмосфера, отсутствие формальной обстановки
+          <br>
+          Большая длительность мероприятия
+          <br>
+          Отдельная брейк-данс площадка в контексте большого праздника, оставляет яркие впечатления у зрителей.
+        </p>
+        <h5>Театральные программы</h5>
+        <b>Это Сказка или Путешествие на вашем мероприятии.</b>
+        <br>
+        <p>
+          В формате площадной работы: это фееричные, ювелирно проработанные костюмы, очень атмосферная работа артистов. Возможные настроения: Сказка, Винтаж, Стим-панк, Иллюзия. Возможность насладиться программами и образами Театра Альтерум, Вадима Савенкова, удивить себя общением с Роботами.
+        </p>
+        <p>
+          В формате театральной сцены - это  полновесные театрально-танцевальные спектакли, длительностью 50-70 минут, с возможностью оформления смежных пространств(фойе, открытые веранды) как художественной выставки, с проведением перфомансов. Возможны показы в залах от 150 до 3000 мест.
+        </p>
+      </div>
+      
       <div class="row">
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -33,8 +78,8 @@
             Вас ожидает 4 класса от опытных танцоров и лучших хореографов страны, за которыми есть большой опыт в постановке и режиссуре клипов, концертов и других больших проектов. У каждого хореографа свой уникальный стиль и исполнение танца. Вы приобретете ценный опыт и багаж знаний для дальнейшего развития как артиста.
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -47,8 +92,8 @@
             Посещала Классы у известных мировых хореографов таких как Kyle Hanagami, Will da best , Brian Friedman , Ian Eastwood , Jojo Gomez , Yanis Marshal , Brian Puspouse , Kaelyn Harris и многие другие.
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -60,8 +105,8 @@
             Продюсер и основатель International street dance session. Один из первых кто продвигает Хип-хоп Хореографию в Казахстане. Работал на концертах Craig David, Ne-Yo, Jay Sean, Dj Smash и др. Обучался и обменивался опытом в LA, успел поработать на канале FoX и с танцорами Misha Gabriel, Bryan Tanaka, David Moore, Kenny Wormald, Marty Kudelka, Popin Pete, Madd Chadd, Twitch Boss, Aja George, Link, Ade Willias, Choreo Cookies и др. Работал с Napoleon & Tabitha на шоу Mobbed. В индустрии Хип-Хоп культуры
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -76,8 +121,8 @@
             ⚜️Работал в качестве артиста и хореографа в Company E в г. Нью-Йорк
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -94,8 +139,8 @@
             ⚜Казахский Национальный Университет Искусств, факультет «хореографии», специализация «Педагог-хореограф»
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
           <div class="line" data-aos="zoom-out-right"></div>
         </div>
         <div class="col-8 reg__text">
@@ -110,8 +155,8 @@
             Женя Барышев RU.
           </p>
         </div>
-        <div class="col-3 reg__image ">
-          <img class="reg__avatar circle" src="http://fakeimg.pl/90/">
+        <div class="col-3 reg__image">
+          <img class="reg__avatar circle responsive-img" src="http://fakeimg.pl/150/">
         </div>
         <div class="col-8 reg__text">
           <h2>Алтынбек Улангассыр</h2>

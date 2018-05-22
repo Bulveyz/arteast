@@ -29,8 +29,8 @@
 
       <!--Footer Title-->
       <div class="col">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h5 class="white-text">Art East Dance</h5>
+        <p class="grey-text text-lighten-4">Лучший танцевальный коллектив Астаны.</p>
       </div>
       <!--End Footer Title-->
 

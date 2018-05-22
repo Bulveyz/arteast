@@ -2,6 +2,9 @@
 
 @section('content')
   <br><br><br><br><br><br>
+  
+  
+  
   <div class="container">
     <div class="item-box">
       <h3>Название Проекта</h3>

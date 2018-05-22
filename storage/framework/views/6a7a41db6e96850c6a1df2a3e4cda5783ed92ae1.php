@@ -13,29 +13,84 @@
     <!--Services-->
     <div class="container service">
       <div class="row center">
-
+        
+        <!--Services Text-->
+        
+          
+            
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+          
+  
+          
+        
+        <!--End Services Text-->
+        
+        <div class="col-12 relative d-none d-md-block">
+          <div class="overt">
+            <div class="overlayt d-flex justify-content-center align-items-center" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
+              <div>
+                <h1>О Нас</h1>
+                <ul class="list">
+                  <li class="list_item">
+                    1) Высокий уровень танцоров
+                  </li>
+                  <li class="list_item">
+                    2) Превосходное исполнение
+                  </li>
+                  <li class="list_item">
+                    3)фееричные, ювелирно проработанные костюмы
+                  </li>
+                </ul>
+                <a class="video__link fsz20 border" href="/gallery">Подробнее <i class="fa fa-long-arrow-right t2" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="over" data-aos="fade-up" data-aos-once="true">
+              <img class="responsive-img" src="images/DSC09004-min.jpg" >
+            </div>
+          </div>
+        </div>
+  
         <!--Services Image-->
-        <div class="col-md-6">
+        <div class="col-md-12 center d-block d-md-none">
+          <h2>О Нас</h2>
+          <ul class="list">
+            <li class="list_item">
+              1) Высокий уровень танцоров
+            </li>
+            <li class="list_item">
+              2) Превосходное исполнение
+            </li>
+            <li class="list_item">
+              3)фееричные, ювелирно проработанные костюмы
+            </li>
+          </ul>
+          <div style="margin-bottom: 50px">
+            <a class="service__links left-align" href="/team">Подробнее</a>
+          </div>
           
         </div>
         <!--End Services Image-->
-
-        <!--Services Text-->
-        <div class="col-md-6 service__item">
-          <h2>О Нас</h2>
-          <p></p>
-          <a class="service__links" href="/team">Подробнее</a>
-        </div>
-        <!--End Services Text-->
 
         <!--Services Text-->
         
         <!--End Services Text-->
 
         <!--Services Image-->
-        <div class="col-md-6 service__item">
-          <img class="responsive-img" src="http://fakeimg.pl/400/" data-aos="fade-left">
-        </div>
+        
+          
+        
         <!--End Services Image-->
 
       </div>
@@ -48,7 +103,7 @@
       <div class="center">
 
         <!--Video Title-->
-        <h2 class="video__title">Видео</h2>
+        <h2 class="video__title">Галерея</h2>
         <!--End Video Title-->
 
         <!--Video Items-->
@@ -56,25 +111,25 @@
 
           <!--Video Item-->
           <div class="video__item">
-            <img class="about__big-image" src="http://fakeimg.pl/200/">
+            <img class="about__big-image responsive-img materialboxed" src="images/1-48-min.jpg" width="500">
           </div>
           <!--End Video Item-->
 
           <!--Video Item-->
           <div class="video__item">
-            <img class="about__big-image" src="http://fakeimg.pl/200/">
+            <img class="about__big-image responsive-img materialboxed" src="images/1-170-min.jpg" width="500">
           </div>
           <!--End Video Item-->
 
           <!--Video Item-->
           <div class="video__item">
-            <img class="about__big-image" src="http://fakeimg.pl/200/">
+            <img class="about__big-image responsive-img materialboxed" src="images/1-263-min.jpg" width="500">
           </div>
           <!--End Video Item-->
 
           <!--Video Item-->
           <div class="video__item">
-            <img class="about__big-image" src="http://fakeimg.pl/200/">
+            <img class="about__big-image responsive-img materialboxed" src="images/IMG-20170306-WA0038-min.jpg" width="500">
           </div>
           <!--EndVideo Item-->
 
@@ -82,7 +137,7 @@
         <!--End Video Items-->
 
         <!--Video Link-->
-        <a class="video__link" href="/gallery">Больше Видео <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        <a class="video__link" href="/gallery">Больше фотографий <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         <!--End Video Link-->
 
       </div>
