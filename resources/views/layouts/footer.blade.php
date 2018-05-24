@@ -5,7 +5,7 @@
 
       <!--Footer Title-->
       <div class="col">
-        <h5 class="white-text">Art East Dance</h5>
+        <h5 class="white-text">ArtEast Dance</h5>
         {{--<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>--}}
       </div>
       <!--End Footer Title-->
