@@ -5,7 +5,7 @@
   <div class="container">
     <ul class="tabs col-12 tab-demo">
       <li class="tab"><a class="active" href="#tab1"><h5 class="flow-text">Contemporary</h5></a></li>
-      <li class="tab"><a href="#tab2"><h5 class="flow-text">Hip-Hop chore</h5></a></li>
+      <li class="tab"><a href="#tab2"><h5 class="flow-text">Hip-Hop choreo</h5></a></li>
     </ul>
   </div>
 

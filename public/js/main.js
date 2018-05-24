@@ -6,9 +6,9 @@
 
 $(document).ready(function () {
 
-    $("img").one("load", function() {
+    setTimeout(function () {
         $('.centered').fadeOut();
-    });
+    }, 3000)
 
   var welcomeSection = $('.welcome-section');
 

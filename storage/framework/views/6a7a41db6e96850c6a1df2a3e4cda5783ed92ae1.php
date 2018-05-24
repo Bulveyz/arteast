@@ -42,18 +42,10 @@
             <div class="overlayt d-flex justify-content-center align-items-center" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
               <div>
                 <h1>О Нас</h1>
-                <ul class="list">
-                  <li class="list_item">
-                    1) Высокий уровень танцоров
-                  </li>
-                  <li class="list_item">
-                    2) Превосходное исполнение
-                  </li>
-                  <li class="list_item">
-                    3)фееричные, ювелирно проработанные костюмы
-                  </li>
-                </ul>
-                <a class="video__link fsz20 border" href="/gallery">Подробнее <i class="fa fa-long-arrow-right t2" aria-hidden="true"></i></a>
+                <h5>Высокий уровень танцоров</h5>
+                <h5>Превосходное исполнение</h5>
+                <br>
+                <a class="video__link fsz20 border" href="/team">Подробнее <i class="fa fa-long-arrow-right t2" aria-hidden="true"></i></a>
               </div>
             </div>
             <div class="over" data-aos="fade-up" data-aos-once="true">

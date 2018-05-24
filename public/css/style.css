@@ -620,3 +620,13 @@ body {
   padding: 10px;
   padding-right: 13px;
 }
+
+.workshop__title a {
+  color: #fff;
+  transition: .5s;
+  font-weight: 300;
+}
+
+.workshop__title a:hover {
+  color: #e8e8e8;
+}

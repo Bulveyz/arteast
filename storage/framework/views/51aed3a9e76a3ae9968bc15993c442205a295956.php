@@ -3,7 +3,7 @@
   <nav>
     <div class="container">
       <a href="/" class="brand-logo">
-        Art East Dance
+        ArtEast Dance
       </a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a>
       <ul class="right hide-on-med-and-down">
