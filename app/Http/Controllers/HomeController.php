@@ -69,7 +69,7 @@ class HomeController extends Controller
            'phone' => 'required|numeric'
         ]);
 
-        Mail::to('47112ed51c-adddce@inbox.mailtrap.io')->send(new Phone($request->get('phone')));
+        Mail::to('bulveyz@gmail.com')->send(new Phone($request->get('phone')));
 
         return back();
     }
