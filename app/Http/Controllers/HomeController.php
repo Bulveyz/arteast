@@ -66,10 +66,10 @@ class HomeController extends Controller
     public function mail(Request $request)
     {
         $this->validate($request, [
-           'phone' => 'required|numeric'
+           'phone' => 'required'
         ]);
 
-        Mail::to('bulveyz@gmail.com')->send(new Phone($request->get('phone')));
+        Mail::to('Dauletmuratpekov@gmail.com')->send(new Phone($request->get('phone')));
 
         return back();
     }
