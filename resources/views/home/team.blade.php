@@ -37,10 +37,7 @@
             <h5 class="item-box__title">{{$team->name}} {{$team->secondName}}</h5>
             <div class="item-box__img">
               <img class="responsive-img" width="240" height="200" src="{{$team->profile}}" data-aos="fade-left">
-            </div>
-            <p class="item-box__body">
-              Lorem ipsum dolor sit amet.
-            </p>
+            </div>      
             <div class="item-box__more">
               <a class="item-box__link" href="/team/{{$team->id}}">Подробнее</a>
             </div>
